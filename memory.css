@@ -1,0 +1,33 @@
+
+.container-fluid{
+    background-image: url('./images/1000_F_556448894_DT3jIEqG89K8D2d91YfBQE3AZEbMqiZa.jpg');
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#userinfo{
+    margin-top:200px;
+    border: 2px solid rgb(255,255,255,.2);
+    padding:30px;
+    background:transparent;
+    color:black;
+    font-weight:400;
+    border-radius:12px;
+    box-shadow: whitesmoke;
+    backdrop-filter: blur(10px);
+}
+.btn{
+    margin-left:180px;
+    color: whitesmoke;
+    font-weight: 400;
+}
+@media(max-width:768px){
+    .btn{
+        margin-left:100px;
+        color: whitesmoke;
+        font-weight: 400;
+}
+}
